@@ -56,7 +56,7 @@ This pcap contains the CNameString unknownuser, and the realm myrealm, being pas
 
 ## Conclusion
 
-As the RFC quoted and testing undertaken have shown, neither in theory nor practice, is the Authors assertion that at step two of kerberos authentication "The client encrypts the username with AES for transmission to the KDC".
+As the RFC quoted and testing undertaken have shown, neither in theory nor practice is the Authors assertion that at step two of kerberos authentication "The client encrypts the username with AES for transmission to the KDC" acccurate.
 
 ## Appendix: Lab setup
 
