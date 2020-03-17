@@ -15,7 +15,7 @@ Logically, step two and three can't co-exist. If the username is encrypted, eith
 
 If the username is encrypted with a hash of the users password, then when it gets to the KDC, the KDC needs to bruteforce this auth attempt with the password for EVERY user in it's database, unless another piece of identifying information is passed with the encrypted username.
 
-Alternatively, the PSK is NOT based on the users password, but in this case, the AES password needs to be sent to the requesting system across the network in either cleartext, or using something like Dhiffie Hellman Key Exchange. I've never read this being the case, nor observed it. Nontheless, we allow for this in our testing environment.
+Alternatively, the PSK is NOT based on the users password, but in this case, the AES password needs to be sent to the requesting system across the network in either cleartext, or using something like Diffie Hellman Key Exchange. I've never read this being the case, nor observed it. Nontheless, we allow for this in our testing environment.
 
 ### Source of truth (theoretically) the RFC:
 
